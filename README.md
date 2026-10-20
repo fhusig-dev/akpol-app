@@ -1,9 +1,13 @@
 # AKPOL Rally Team
 
-Interfejs aplikacji zespołu: magazyn części i normaliów, samochody i przebiegi, minima zapasu, tablice ekipy i prywatne rozliczenia.
+Interfejs zespołu: auta i przebiegi części, magazyn, checklisty, zakupy, usterki, zadania i rozliczenia.
 
-Publikacja: Settings → Pages → Deploy from a branch → main → /docs → Save.
+Adres: https://fhusig-dev.github.io/akpol-app/
 
-Dane i dokumenty są w Supabase i wymagają logowania. Repozytorium zawiera wyłącznie interfejs oraz publiczne ustawienia klienta. Nie zawiera bazy danych, załączników ani kluczy administracyjnych.
+Wersja 0.4: etykiety QR, regeneracje, kontrole z potwierdzeniem wykonawcy, częściowe dostawy, alerty, koszty aut i rajdów, szkice offline i szyfrowany eksport kopii.
 
-One Team One Goal · AKPOL RECYKLING Rally Team
+Wymaga konta i aktywnego dostępu nadanego przez managera. Backend wymusza uprawnienia; pracownik widzi wyłącznie własne wydatki i dokumenty. Publiczny klucz w konfiguracji nie nadaje uprawnień managera.
+
+Pozycje DEMO są fikcyjne. Szkice offline należy wysłać po odzyskaniu połączenia. Kopię danych przechowuj również poza projektem chmurowym.
+
+GitHub Pages: main, /docs. Kod QR: qrcode-generator 1.4.4, MIT (nagłówek pliku qrcode.js).
